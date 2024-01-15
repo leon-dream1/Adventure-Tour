@@ -118,7 +118,7 @@ nav ul li a {
 }
 
 .field {
-    width: 174px;
+    width: 24%;
     height: 52px;
     border-radius: 8px;
     background: #FFF;
@@ -136,10 +136,13 @@ nav ul li a {
 .btn-primary {
     border-radius: 8px;
     background: #FF5400;
-    width: 174px;
+    width: 24%;
     height: 52px;
     color: #fff;
     border: none;
     font-size: 1rem;
     font-weight: 700;
+}
+.search-icon{
+    padding-right: 5px;
 }

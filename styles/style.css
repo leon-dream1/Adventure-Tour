@@ -23,6 +23,10 @@ img {
     vertical-align: middle;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     width: 81%;
     margin: 0 auto;
@@ -41,6 +45,7 @@ img {
     /* --heading-color: 131318 */
 }
 
+/* Common css */
 
 /* Header css Start */
 .nav-logo {
@@ -332,14 +337,16 @@ section {
     /* margin-bottom:30px; */
 }
 
-.room-detail > h2{
+.room-detail>h2 {
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
 .room-detail .price {
     color: var(--primary-color)
 }
-.room-detail button{
+
+.room-detail button {
     width: 50%;
     margin: 10px 0;
 }
@@ -416,8 +423,57 @@ section {
     margin-top: 16px;
 }
 
+.choose-us-content>img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+
 /* Choose us section End */
 
+/* Video section start */
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    gap: 24px;
+}
+
+.video-main-content {
+    grid-column: 1 / 7;
+}
+
+.video-beauty {
+    grid-column: 8 / 13;
+}
+
+.video-main-content p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+}
+
+.video-main-content ul {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.video-main-content ul li {
+    list-style: disc;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.video-beauty iframe {
+    width: 100%;
+}
+
+/* Video section End */
 
 
 /* news letter section start */

@@ -1,4 +1,6 @@
 @media screen and (max-width: 575px) {
+
+    /* Header part start */
     .banner {
         padding: 30px 20px;
     }
@@ -31,10 +33,56 @@
     }
 
     .field,
-    .btn-primary 
-    {
+    .btn-primary {
         width: 100%;
     }
+
+    /* header part end */
+
+    /* popular part start */
+    .popular-tour-main-content {
+        flex-direction: column;
+    }
+
+    .popular-tour-content {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .popular-tour-content p,
+    .popular-tour-content ul li {
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* popular part End */
+
+    /* Choose destination part start */
+    .choose-destination .destination-desc {
+        width: 100%;
+    }
+
+    .row {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .america,
+    .kashmir,
+    .bangladesh,
+    .bandarban
+    {
+        grid-column: 1 / 13;
+    }
+    /* Choose destination part End */
+
 
 }
 
@@ -71,32 +119,131 @@
     }
 
     .field,
-    .btn-primary 
-    {
+    .btn-primary {
         width: 100%;
     }
+
+    /* popular part start */
+    .popular-tour-main-content {
+        flex-direction: column;
+    }
+
+    .popular-tour-content {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .popular-tour-content p,
+    .popular-tour-content ul li {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* popular part End */
+
+    /* Choose destination part start */
+    .choose-destination .destination-desc {
+        width: 100%;
+    }
+
+    .row {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .america,
+    .kashmir,
+    .bangladesh,
+    .bandarban
+    {
+        grid-column: 1 / 13;
+    }
+    /* Choose destination part End */
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .banner {
         padding: 60px;
     }
+
     .banner-content,
-    .travel-info-container
-     {
+    .travel-info-container {
         width: 100%;
     }
+
+    /* popular part start */
+    .popular-tour-main-content {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .popular-tour-content {
+        width: 80%;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .popular-tour-content p,
+    .popular-tour-content ul li {
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* popular part End */
+
+     /* Choose destination part Start */
+    .choose-destination .destination-desc {
+        width: 70%;
+    }
+     /* Choose destination part End */
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
     .banner {
         padding: 60px;
     }
+
     .banner-content,
-    .travel-info-container
-     {
+    .travel-info-container {
         width: 100%;
     }
+
+
+    /* popular part start */
+    .popular-tour-main-content {
+        align-items: center;
+        gap: 30px;
+    }
+
+    .popular-tour-content {
+        width: 70%;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .popular-tour-content p,
+    .popular-tour-content ul li {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* popular part End */
 }
 
 /* @media screen and (min-width: 1400px) {

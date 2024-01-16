@@ -578,20 +578,6 @@
 
     /* Room section End */
 
-    /* video section start */
-
-    /* .main-container{
-        grid-template-columns: repeat(1, 1fr);
-    } */
-    .video-main-content {
-        grid-column: 1 / 13;
-    }
-
-    .video-beauty {
-        grid-column: 1 / 13;
-    }
-
-    /* video section End */
 
 
 

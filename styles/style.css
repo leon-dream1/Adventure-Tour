@@ -283,6 +283,77 @@ section {
 
 /* Choose destination End */
 
+
+/* Choose us section start */
+.why-choose-us h2 {
+    text-align: center;
+}
+
+.why-choose-us .choose-us-desc {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.why-choose-us-main-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+.choose-us-content {
+    padding: 32px;
+}
+
+.left-content {
+    grid-column: 1 / 7;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.right-content {
+    grid-column: 7 / 13;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.mid-content {
+    grid-column: 4 / 10;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    justify-content: center;
+}
+
+.choose-us-content > i {
+    width: 100px;
+    height: 64px;
+}
+
+.choose-us-content .choose-us-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.choose-us-content > p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+/* Choose us section End */
+
+
+
 /* news letter section start */
 
 .news-letter-main-content {

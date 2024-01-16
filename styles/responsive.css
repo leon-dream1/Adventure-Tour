@@ -96,6 +96,31 @@
 
     /* Choose destination part End */
 
+    /* Choose us section Start */
+
+    .why-choose-us .choose-us-desc {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .choose-us-content {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .left-content,
+    .right-content,
+    .mid-content {
+        grid-column: 1 / 13;
+    }
+
+    /* Choose us section End */
+
+
     /* newsletter section start */
 
     .news-letter-main-content {
@@ -262,6 +287,31 @@
     }
 
     /* Choose destination part End */
+
+    /* Choose us section Start */
+
+    .why-choose-us .choose-us-desc {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .choose-us-content {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .left-content,
+    .right-content,
+    .mid-content {
+        grid-column: 1 / 13;
+    }
+
+    /* Choose us section End */
+
 
     /* newsletter section start */
 

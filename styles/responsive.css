@@ -129,14 +129,15 @@
     /* Choose us section End */
 
     /* video section start */
-    .main-container{
+    .main-container {
         text-align: center;
     }
 
     .video-main-content {
         grid-column: 1 / 13;
     }
-    .video-main-content h2{
+
+    .video-main-content h2 {
         font-size: 1rem;
         text-align: center;
     }
@@ -145,7 +146,8 @@
         grid-column: 1 / 13;
         /* width: 100%; */
     }
-    .video-beauty iframe{
+
+    .video-beauty iframe {
         width: 100%;
     }
 
@@ -215,10 +217,6 @@
     }
 
     /* footer part End */
-
-
-
-
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -351,15 +349,17 @@
 
     /* Choose us section End */
 
+
     /* video section start */
-    .main-container{
+    .main-container {
         text-align: center;
     }
 
     .video-main-content {
         grid-column: 1 / 13;
     }
-    .video-main-content h2{
+
+    .video-main-content h2 {
         font-size: 1rem;
         text-align: center;
     }
@@ -368,7 +368,8 @@
         grid-column: 1 / 13;
         /* width: 100%; */
     }
-    .video-beauty iframe{
+
+    .video-beauty iframe {
         width: 100%;
     }
 
@@ -490,13 +491,13 @@
     .video-main-content {
         grid-column: 1 / 7;
     }
-    
+
     .video-beauty {
         grid-column: 7 / 13;
     }
+
     .video-main-content p,
-    .video-main-content ul
-    {
+    .video-main-content ul {
         padding: 10px 0;
     }
 
@@ -546,7 +547,6 @@
         width: 100%;
     }
 
-
     /* popular part start */
     .popular-tour-main-content {
         align-items: center;
@@ -577,8 +577,6 @@
     }
 
     /* Room section End */
-
-
 
 
     /* newsletter section start */

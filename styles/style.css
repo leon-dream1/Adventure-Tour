@@ -283,6 +283,71 @@ section {
 
 /* Choose destination End */
 
+/* Room section start */
+.hotel-rooms .section-title {
+    text-align: center;
+}
+
+.hotel-room-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.room {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+    /* padding: 20px 30px; */
+}
+
+.room img {
+    border-radius: 16px 16px 0 0;
+    /* width: 100%; */
+}
+
+.room-detail {
+    padding: 20px;
+}
+
+.room-detail h5 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.review>i {
+    color: var(--primary-color);
+    margin-bottom: 12px;
+}
+
+.capacity {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.capacity p {
+    font-size: 1.25rem;
+    /* margin-bottom:30px; */
+}
+
+.room-detail > h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.room-detail .price {
+    color: var(--primary-color)
+}
+.room-detail button{
+    width: 50%;
+    margin: 10px 0;
+}
+
+/* Room section End */
+
+
+
 
 /* Choose us section start */
 .why-choose-us h2 {
@@ -332,7 +397,7 @@ section {
     justify-content: center;
 }
 
-.choose-us-content > i {
+.choose-us-content>i {
     width: 100px;
     height: 64px;
 }
@@ -343,13 +408,14 @@ section {
     font-weight: 800;
 }
 
-.choose-us-content > p {
+.choose-us-content>p {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
     margin-top: 16px;
 }
+
 /* Choose us section End */
 
 

@@ -96,6 +96,18 @@
 
     /* Choose destination part End */
 
+    /* Room section start */
+    .hotel-room-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+
+    /* Room section End */
+
+
     /* Choose us section Start */
 
     .why-choose-us .choose-us-desc {
@@ -288,6 +300,14 @@
 
     /* Choose destination part End */
 
+    /* Room section start */
+    .hotel-room-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Room section End */
+
+
     /* Choose us section Start */
 
     .why-choose-us .choose-us-desc {
@@ -415,6 +435,14 @@
 
     /* Choose destination part End */
 
+    /* Room section start */
+    .hotel-room-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Room section End */
+
+
     /* newsletter section start */
     .news-letter-form {
         width: 45%;
@@ -482,6 +510,13 @@
     }
 
     /* popular part End */
+
+    /* Room section start */
+    .hotel-room-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Room section End */
 
     /* newsletter section start */
     .news-letter-form {
